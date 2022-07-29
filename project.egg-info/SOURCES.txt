@@ -1,0 +1,37 @@
+Mongodb.py
+Products (autre copie).csv
+Products copy.csv
+Products.csv
+Tracker (copie).db
+Tracker.db
+cats.csv
+jumia.csv
+jumia.json
+prices.csv
+scrapy.cfg
+setup.py
+test.py
+Tracker/__init__.py
+Tracker/items.py
+Tracker/middlewares.py
+Tracker/pipelines.py
+Tracker/settings.py
+Tracker/__pycache__/__init__.cpython-310.pyc
+Tracker/__pycache__/items.cpython-310.pyc
+Tracker/__pycache__/pipelines.cpython-310.pyc
+Tracker/__pycache__/settings.cpython-310.pyc
+Tracker/spiders/Catégorie.py
+Tracker/spiders/Jumia.py
+Tracker/spiders/__init__.py
+Tracker/spiders/__pycache__/Catégorie.cpython-310.pyc
+Tracker/spiders/__pycache__/Jumia.cpython-310.pyc
+Tracker/spiders/__pycache__/Produit.cpython-310.pyc
+Tracker/spiders/__pycache__/UpdatePrices.cpython-310.pyc
+Tracker/spiders/__pycache__/__init__.cpython-310.pyc
+Tracker/spiders/__pycache__/countitems.cpython-310.pyc
+Tracker/spiders/__pycache__/first_spider.cpython-310.pyc
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
