@@ -14,8 +14,7 @@ NEWSPIDER_MODULE = 'Tracker.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'Tracker (+http://www.yourdomain.com)'
-
+USER_AGENT = 'Tracker'
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
 
@@ -91,5 +90,11 @@ DOWNLOADER_MIDDLEWARES = {
     'tutorial.randomproxy.RandomProxy': 100,
     'scrapy.contrib.downloadermiddleware.httpproxy.HttpProxyMiddleware': 110,
     'scrapy.contrib.downloadermiddleware.useragent.UserAgentMiddleware' : None,
-    'tutorial.spiders.rotate_useragent.RotateUserAgentMiddleware' :400,    
+    'tutorial.spiders.rotate_useragent.RotateUserAgentMiddleware' :400,
 }
+
+
+DOWNLOAD_DELAY = 0.5
+AUTOTHROTTLE_ENABLED = True
+HTTPCACHE_ENABLED = True
+
